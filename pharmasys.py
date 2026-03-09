@@ -4,7 +4,7 @@ from tkinter import ttk
 # Crear la ventana principal
 root = tk.Tk()
 root.geometry('800x400')
-root.title("PharmaSys Management")
+root.title("PharmaSys")
 
 # Crear el widget Notebook (pestañas)
 notebook = ttk.Notebook(root)
