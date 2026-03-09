@@ -24,7 +24,7 @@ notebook.add(tab4, text="Control de Calidad")
 # Empaquetar el Notebook
 notebook.pack(expand=True, fill="both")
 
-# PESTAÑA 1 - PRINCIPIOS ACTIVOS
+# MODULO 1 - PRINCIPIOS ACTIVOS
 
 titulo = tk.Label(tab1,
                   text="FORMULARIO DE PRINCIPIOS ACTIVOS",
@@ -67,7 +67,7 @@ tk.Button(button_frame, text="Actualizar", bg="#2196F3", fg="white", width=10).p
 tk.Button(button_frame, text="Eliminar", bg="#f44336", fg="white", width=10).pack(side=tk.LEFT, padx=5)
 tk.Button(button_frame, text="Limpiar", bg="#FF9800", fg="white", width=10).pack(side=tk.LEFT, padx=5)
 
-# PESTAÑA 2 - MEDICAMENTO
+# MODULO 2 - MEDICAMENTO
 
 titulo2 = tk.Label(tab2,
                    text="FORMULARIO DE MEDICAMENTOS",
@@ -110,7 +110,7 @@ tk.Button(button_frame2, text="Actualizar", bg="#2196F3", fg="white", width=10).
 tk.Button(button_frame2, text="Eliminar", bg="#f44336", fg="white", width=10).pack(side=tk.LEFT, padx=5)
 tk.Button(button_frame2, text="Limpiar", bg="#FF9800", fg="white", width=10).pack(side=tk.LEFT, padx=5)
 
-# PESTAÑA 3 - PRODUCCION
+# MODULO 3 - PRODUCCION
 
 titulo3 = tk.Label(tab3,
                    text="FORMULARIO DE PRODUCCION",
@@ -153,7 +153,7 @@ tk.Button(button_frame3, text="Actualizar", bg="#2196F3", fg="white", width=10).
 tk.Button(button_frame3, text="Eliminar", bg="#f44336", fg="white", width=10).pack(side=tk.LEFT, padx=5)
 tk.Button(button_frame3, text="Limpiar", bg="#FF9800", fg="white", width=10).pack(side=tk.LEFT, padx=5)
 
-# PESTAÑA 4 - CONTROL CALIDAD
+# MODULO 4 - CONTROL CALIDAD
 
 titulo4 = tk.Label(tab4,
                    text="FORMULARIO DE CONTROL DE CALIDAD",
